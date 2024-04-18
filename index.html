@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <iframe width="560" height="315" id="iframe"  title="YouTube video player" 
+  <iframe width="2560" height="1920" id="iframe"  title="Rickroll" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; download" 
     allowfullscreen></iframe>
   <script>
     var iframe = document.getElementById('iframe');
     var src = document.createAttribute("src");
-    src.value = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    src.value = 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1';
     iframe.setAttributeNode(src);
+    document.title = "Nothing"
   </script>
 </html>
