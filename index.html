@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <iframe width="560" height="315" id="iframe"  title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; download" 
+    allowfullscreen></iframe>
   <script>
-    window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    var iframe = document.getElementById('iframe');
+    var src = document.createAttribute("src");
+    src.value = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    iframe.setAttributeNode(src);
   </script>
 </html>
