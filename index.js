@@ -1,5 +1,5 @@
 (function(){
-if (Math.random() < 1/10000) document.getElementById('video').src='https://i.imgur.com/xFX9ujh.mp4';
+if (Math.random() < 1/10000) document.getElementById('video').src='https://www.youtube.com/embed/EyOnl8oRDdA?autoplay=1';
 function setSize() {
     let vid = document.getElementById('video');
     let w = window.innerWidth, h = window.innerHeight;
